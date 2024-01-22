@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="372.0" prefWidth="314.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.anmelden.RegistrierenController">
+   <children>
+      <Label layoutX="14.0" layoutY="104.0" text="Benutzername">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="166.0" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_usernameRegistrieren" layoutX="110.0" layoutY="101.0" promptText="Username" />
+      <Button fx:id="btn_Registrieren" layoutX="104.0" layoutY="270.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="106.0" text="Registrieren">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="wrongLogIn" layoutX="51.0" layoutY="48.0" prefHeight="22.0" prefWidth="240.0" textFill="#f40707">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="tf_passwordRegistrieren" layoutX="110.0" layoutY="163.0" promptText="Password" />
+      <RadioButton fx:id="radio" layoutX="7.0" layoutY="222.0" mnemonicParsing="false" text="Ich habe die          gelesen." textAlignment="CENTER" />
+      <Button layoutX="88.0" layoutY="218.0" mnemonicParsing="false" text="AGBs" textAlignment="CENTER" textFill="#1f11e1" underline="true" />
+   </children>
+</AnchorPane>

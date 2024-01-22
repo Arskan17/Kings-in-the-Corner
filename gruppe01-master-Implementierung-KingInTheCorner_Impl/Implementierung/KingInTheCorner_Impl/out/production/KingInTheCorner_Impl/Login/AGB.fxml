@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.AGBController">
+   <children>
+      <Label layoutX="256.0" layoutY="29.0" text="AGBs">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="104.0" text="BliBlaBlub" />
+      <Button fx:id="btn_zurueck" layoutX="256.0" layoutY="289.0" mnemonicParsing="false" text="Zurück" />
+   </children>
+</AnchorPane>

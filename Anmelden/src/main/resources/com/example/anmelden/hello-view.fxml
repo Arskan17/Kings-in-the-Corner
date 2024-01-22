@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="372.0" prefWidth="314.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.anmelden.LoginController">
+   <children>
+      <Label layoutX="14.0" layoutY="104.0" text="Benutzername">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="166.0" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="110.0" layoutY="101.0" promptText="Username" />
+      <Button fx:id="buttonAnmelden" layoutX="119.0" layoutY="239.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="106.0" text="Anmelden">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="10.0" layoutY="325.0" text="Noch nicht Registriert ?" />
+      <Button fx:id="buttonRegistrieren" layoutX="145.0" layoutY="321.0" mnemonicParsing="false" text="Registrieren" textFill="#1377ed" underline="true" />
+      <Label fx:id="wrongLogIn" layoutX="51.0" layoutY="48.0" prefHeight="22.0" prefWidth="240.0" textFill="#f40707">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" layoutX="110.0" layoutY="163.0" promptText="Password" />
+   </children>
+</AnchorPane>
